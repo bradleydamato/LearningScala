@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57ebaa46-20dd-4411-9e6b-c71bda695c5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lectures/part1basics/recursion.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part1basics/DefaultArgs.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part1basics/StringOps.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +29,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="full.screen.before.presentation.mode" value="true" />
   </component>
-  <component name="RunManager" selected="Application.recursion">
+  <component name="RunManager" selected="Application.StringOps">
     <configuration name="CBVvsCBN" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.part1basics.CBVvsCBN" />
       <module name="LearningScala" />
@@ -43,8 +45,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValuesVariablesTypes" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part1basics.ValuesVariablesTypes" />
+    <configuration name="DefaultArgs" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part1basics.DefaultArgs" />
       <module name="LearningScala" />
       <extension name="coverage">
         <pattern>
@@ -56,8 +58,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="expressions" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part1basics.expressions" />
+    <configuration name="StringOps" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part1basics.StringOps" />
       <module name="LearningScala" />
       <extension name="coverage">
         <pattern>
@@ -97,11 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringOps" />
+        <item itemvalue="Application.DefaultArgs" />
         <item itemvalue="Application.recursion" />
         <item itemvalue="Application.CBVvsCBN" />
         <item itemvalue="Application.functions" />
-        <item itemvalue="Application.expressions" />
-        <item itemvalue="Application.ValuesVariablesTypes" />
       </list>
     </recent_temporary>
   </component>
@@ -135,25 +137,25 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="122" y="173" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1280.800@0.0.1280.800" timestamp="1578598041513" />
-    <state width="363" height="259" key="GridCell.Tab.0.bottom" timestamp="1578598210782">
+    <state width="672" height="259" key="GridCell.Tab.0.bottom" timestamp="1578677824092">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="363" height="259" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1578598210782" />
+    <state width="672" height="259" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1578677824092" />
     <state width="609" height="212" key="GridCell.Tab.0.bottom/0.23.1280.741@0.23.1280.741" timestamp="1578521653350" />
-    <state width="363" height="259" key="GridCell.Tab.0.center" timestamp="1578598210780">
+    <state width="672" height="259" key="GridCell.Tab.0.center" timestamp="1578677824091">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="363" height="259" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1578598210780" />
+    <state width="672" height="259" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1578677824091" />
     <state width="609" height="212" key="GridCell.Tab.0.center/0.23.1280.741@0.23.1280.741" timestamp="1578521653349" />
-    <state width="363" height="259" key="GridCell.Tab.0.left" timestamp="1578598210779">
+    <state width="672" height="259" key="GridCell.Tab.0.left" timestamp="1578677824090">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="363" height="259" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1578598210779" />
+    <state width="672" height="259" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1578677824090" />
     <state width="609" height="212" key="GridCell.Tab.0.left/0.23.1280.741@0.23.1280.741" timestamp="1578521653349" />
-    <state width="363" height="259" key="GridCell.Tab.0.right" timestamp="1578598210781">
+    <state width="672" height="259" key="GridCell.Tab.0.right" timestamp="1578677824092">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="363" height="259" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1578598210781" />
+    <state width="672" height="259" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1578677824092" />
     <state width="609" height="212" key="GridCell.Tab.0.right/0.23.1280.741@0.23.1280.741" timestamp="1578521653350" />
     <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1578513851065">
       <screen x="0" y="0" width="1280" height="800" />
