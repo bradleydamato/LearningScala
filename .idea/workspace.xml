@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57ebaa46-20dd-4411-9e6b-c71bda695c5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lectures/part1basics/CBVvsCBN.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part1basics/recursion.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,26 +29,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.CBVvsCBN">
+  <component name="RunManager" selected="Application.recursion">
     <configuration name="CBVvsCBN" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.part1basics.CBVvsCBN" />
       <module name="LearningScala" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lectures.part1basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HelloScala" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="playground.HelloScala" />
-      <module name="LearningScala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="playground.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,13 +82,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="recursion" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part1basics.recursion" />
+      <module name="LearningScala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lectures.part1basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.recursion" />
         <item itemvalue="Application.CBVvsCBN" />
         <item itemvalue="Application.functions" />
         <item itemvalue="Application.expressions" />
         <item itemvalue="Application.ValuesVariablesTypes" />
-        <item itemvalue="Application.HelloScala" />
       </list>
     </recent_temporary>
   </component>
@@ -131,25 +131,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="609" height="212" key="GridCell.Tab.0.bottom" timestamp="1578521653350">
-      <screen x="0" y="23" width="1280" height="741" />
+    <state x="122" y="173" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1578598041513">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="363" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1578517204077" />
+    <state x="122" y="173" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1280.800@0.0.1280.800" timestamp="1578598041513" />
+    <state width="363" height="259" key="GridCell.Tab.0.bottom" timestamp="1578598210782">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="363" height="259" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1578598210782" />
     <state width="609" height="212" key="GridCell.Tab.0.bottom/0.23.1280.741@0.23.1280.741" timestamp="1578521653350" />
-    <state width="609" height="212" key="GridCell.Tab.0.center" timestamp="1578521653349">
-      <screen x="0" y="23" width="1280" height="741" />
+    <state width="363" height="259" key="GridCell.Tab.0.center" timestamp="1578598210780">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="363" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1578517204073" />
+    <state width="363" height="259" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1578598210780" />
     <state width="609" height="212" key="GridCell.Tab.0.center/0.23.1280.741@0.23.1280.741" timestamp="1578521653349" />
-    <state width="609" height="212" key="GridCell.Tab.0.left" timestamp="1578521653349">
-      <screen x="0" y="23" width="1280" height="741" />
+    <state width="363" height="259" key="GridCell.Tab.0.left" timestamp="1578598210779">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="363" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1578517204072" />
+    <state width="363" height="259" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1578598210779" />
     <state width="609" height="212" key="GridCell.Tab.0.left/0.23.1280.741@0.23.1280.741" timestamp="1578521653349" />
-    <state width="609" height="212" key="GridCell.Tab.0.right" timestamp="1578521653350">
-      <screen x="0" y="23" width="1280" height="741" />
+    <state width="363" height="259" key="GridCell.Tab.0.right" timestamp="1578598210781">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="363" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1578517204076" />
+    <state width="363" height="259" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1578598210781" />
     <state width="609" height="212" key="GridCell.Tab.0.right/0.23.1280.741@0.23.1280.741" timestamp="1578521653350" />
     <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1578513851065">
       <screen x="0" y="0" width="1280" height="800" />
